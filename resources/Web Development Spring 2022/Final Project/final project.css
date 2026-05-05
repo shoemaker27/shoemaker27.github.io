@@ -1,0 +1,218 @@
+			h1 {cursor: pointer;}
+
+			h1, h2, p, caption {
+				text-align: center;
+				color: #ffffff;
+			}
+			div.nav {
+				overflow: hidden;
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				padding-bottom: 10px;
+			}
+			a {
+				color: #ffffff;
+				text-decoration: none;
+				cursor: pointer;
+				text-align: center;
+				padding: 14px 16px;
+
+			}
+			
+			img.logo {
+				display: block;
+				margin-left: auto;
+  				margin-right: auto;
+				padding-top: 100px;
+			}
+
+			a:hover {
+				background-color: #b7b7b7;
+			}
+			body {
+				background-image: url("resources/Hunt-Wallpaper.jpg");
+			}
+			tr {
+				background-color: #D6EEEE;
+			}
+			
+			tr:nth-child(odd) td:first-child{
+				background-color: #ffffff;
+			}
+			tr:nth-child(even) td:first-child{
+				background-color: #b7b7b7;
+			}
+			thead tr th{
+				background-color: #ffffff;
+			}
+			table.pancake tr {
+				background-color: #D6EEEE;
+			}
+			.ritz .waffle a { 
+				color: inherit; 
+			}
+			.ritz .waffle .grey {
+				background-color:#D6EEEE;
+				text-align:left;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .s0{
+				text-align:left;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .s3{
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			.ritz .waffle .green{
+				background-color:#34a853;
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+
+			.ritz .waffle .blue{
+				background-color:#4285f4;
+				text-align:right;
+				color:#000000;
+				font-family:'Arial';
+				font-size:10pt;
+				vertical-align:bottom;
+				white-space:nowrap;
+				direction:ltr;
+				padding:2px 3px 2px 3px;
+			}
+			div.filter-input {
+				padding-left: 258px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+			div.filter-input2 {
+				padding-left: 258px;
+				padding-bottom: 10px;
+			}
+			div.filter-input3 {
+				padding-left: 258px;
+				padding-bottom: 10px;
+			}
+			div.filter-input4 {
+				padding-left: 258px;
+				padding-bottom: 10px;
+			}
+			div.filter-input5 {
+				padding-left: 258px;
+				padding-bottom: 10px;
+			}
+			div.filter-input6 {
+				padding-left: 258px;
+				padding-bottom: 10px;
+			}
+			#myInput {
+				width: 40%; /* Full-width */
+				font-size: 16px; /* Increase font-size */
+			}
+			th {
+				cursor: pointer;
+			}
+			div.shotgun img{
+				width: 70%;
+				height: auto;
+			}
+			.dropbtn {
+				background-color: #ffffff;
+				border-color: #ffffff;
+			}
+			.dropdown {
+				position: relative;
+				display: inline-block;
+			  }
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			text-align: left;
+			z-index: 1;
+			}
+			.show {display:block;}
+			div form#form1 {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				color: #f1f1f1;
+			}
+			div form#form2 {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				color: #f1f1f1;
+				padding-top: 10px;
+			}
+			div form#form3 {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				color: #f1f1f1;
+				padding-top: 10px;
+			}
+			div form#form4 {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				color: #f1f1f1;
+				padding-top: 10px;
+			}
+			div form#form4 p {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+				color: #f1f1f1;
+				padding-top: 10px;
+				text-align: left;
+			}
+			div form select {
+				display: block;
+				margin-left: 120px;
+				max-width: 930px;
+			}
+			div form#form4 input {
+				display: block;
+				margin-left: 120px;
+				max-width: 930px;
+			}
+			div form#form4 p input {
+				display: block;
+				margin-left: 120px;
+				max-width: 930px;
+			}
+			div input {
+				display: block;
+				margin: auto;
+				max-width: 930px;
+			}

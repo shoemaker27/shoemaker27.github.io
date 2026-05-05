@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Shop</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="Styles.css" rel="stylesheet" />
+	<script src="cardshop.js"></script>
+  <script src="account.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="resources/imgs/Store Logo.png" alt="Card Shop Logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="magic.html">Magic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yugioh.html">Yu-Gi-OH!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digimon.html">Digimon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="rightN">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="logIn.html" id="logIn">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cart.html"><img src="resources/imgs/Image 1.png" alt="Cart" id="cart"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="nlist">All Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="yugioh.html" id="nlist">Yu-Gi-OH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="yugioh deep.html" id="nlist">Legendary Duelists: Duels from the Deep</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="col-sm-12">
+            <div class="row">
+                <div class="col" id="shopItem">
+                  <img src="resources/imgs/Image 50.png" alt="">
+                  <p>YU-GI-OH!</br>
+                     Legendary Duelists: Duels from the Deep</p>
+                  <p>Ultra Rare</br>
+                    LED9-EN029</br> 
+                    Forbidden Droplet</p>
+                  <p id="price">$24.95</p>
+
+                  <button class="btn btn-outline-success" id="buyBtn" title="24.95|Forbidden Droplet|resources/imgs/Image 50.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                  <img src="resources/imgs/Image 51.png" alt="">
+                  <p>YU-GI-OH!</br>
+                     Legendary Duelists: Duels from the Deep</p>
+                  <p>Ghost Rare</br>
+                    LED9-EN000</br> 
+                    Number 101: Silent Honor ARK</p>
+                  <p id="price">$20.95</p>
+
+                  <button class="btn btn-outline-success" id="buyBtn" title="20.95|Number 101: Silent Honor ARK|resources/imgs/Image 51.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                  <img src="resources/imgs/Image 52.png" alt="">
+                  <p>YU-GI-OH!</br>
+                     Legendary Duelists: Duels from the Deep</p>
+                  <p>Ultra Rare</br>
+                    LED9-EN020</br> 
+                    Fish Sonar</p>
+                  <p id="price">$9.01</p>
+
+                  <button class="btn btn-outline-success" id="buyBtn" title="9.01|Fish Sonar|resources/imgs/Image 52.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                  <img src="resources/imgs/Image 53.png" alt="">
+                  <p>YU-GI-OH!</br>
+                     Legendary Duelists: Duels from the Deep</p>
+                  <p>Ultra Rare</br>
+                    LED9-EN001</br> 
+                    Abyss Shark</p>
+                  <p id="price">$3.02</p>
+
+                  <button class="btn btn-outline-success" id="buyBtn" title="3.02|Abyss Shark|resources/imgs/Image 53.png">BUY</button>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col" id="shopItem">
+                <img src="resources/imgs/Image 54.png" alt="">
+                <p>YU-GI-OH!</br>
+                   Legendary Duelists: Duels from the Deep</p>
+                <p>Ultra Rare</br>
+                  LED9-EN035</br> 
+                  Marincess Dive</p>
+                <p id="price">$2.92</p>
+
+                <button class="btn btn-outline-success" id="buyBtn" title="2.92|Marincess Dive|resources/imgs/Image 54.png">BUY</button>
+              </div>
+              <div class="col" id="shopItem">
+                <img src="resources/imgs/Image 55.png" alt="">
+                <p>YU-GI-OH!</br>
+                   Legendary Duelists: Duels from the Deep</p>
+                <p>Super Rare</br>
+                  LED9-EN031</br> 
+                  >Marincess Springirl</p>
+                <p id="price">$1.36</p>
+
+                <button class="btn btn-outline-success" id="buyBtn" title="1.36|Marincess Springirl|resources/imgs/Image 55.png">BUY</button>
+              </div>
+              <div class="col" id="shopItem">
+                <img src="resources/imgs/Image 56.png" alt="">
+                <p>YU-GI-OH!</br>
+                   Legendary Duelists: Duels from the Deep</p>
+                <p>Ultra Rare</br>
+                  LED9-EN017</br> 
+                  Ocean Dragon Lord - Kairyu-Shin</p>
+                <p id="price">$0.58</p>
+
+                <button class="btn btn-outline-success" id="buyBtn" title="0.58|Ocean Dragon Lord - Kairyu-Shin|resources/imgs/Image 56.png">BUY</button>
+              </div>
+              <div class="col" id="shopItem">
+                <img src="resources/imgs/Image 57.png" alt="">
+                <p>YU-GI-OH!</br>
+                   Legendary Duelists: Duels from the Deep</p>
+                <p>Ultra Rare</br>
+                  LED9-EN006</br> 
+                  Seventh Ascension</p>
+                <p id="price">$0.42</p>
+
+                <button class="btn btn-outline-success" id="buyBtn" title="0.42|Seventh Ascension|resources/imgs/Image 57.png">BUY</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

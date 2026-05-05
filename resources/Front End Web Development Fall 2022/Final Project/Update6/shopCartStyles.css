@@ -1,0 +1,117 @@
+/* 
+* {
+	outline-style: dotted;
+	outline-width: thin;
+}
+ */
+
+.clothingType {
+	display: flex;
+	flex-flow: row wrap;
+	height: auto;
+	width: 46%;
+	padding: 5px 40px 5px 5px;
+	margin: 20px auto auto auto;
+	outline-style: solid;
+	outline-width: thin;
+}
+
+.middleSection {
+	margin: 30px 0px auto 50px;
+}
+
+.clothing {
+	width:40%;
+	height: 40%;	
+}
+
+.numBought, .totalCost {
+	margin: 0px 20px 0px 20px;
+	width: fit-content;
+	font-size: 20px;
+}
+
+.totalCost {
+	float: right;
+}
+
+.numBought {
+	float: left;
+}
+
+.clothingName {
+	font-size: 30px;
+	width: 230px
+}
+
+.numberToRemove {
+	margin-top: 105px;
+	margin-right: none;
+    width: 50px;
+}
+
+.removeButton {
+    width: fit-content;
+	margin: -8.5% auto auto 57%;
+}
+
+@media only screen and (max-width: 1024px) {
+	.clothing {
+		width: 31%;
+		margin-right: 42px;
+	}
+	
+	.clothingType {
+		width: fit-content;
+	}
+}
+
+@media only screen and (max-width: 912px) {
+	.clothing {
+		width: 31%;
+		margin-right: 42px;
+	}
+	
+	.clothingType {
+		width: fit-content;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.clothing {
+		   width: 121%;
+	}
+	
+	.clothingName {
+		/* margin-left: auto;
+		margin-right: auto; */
+		font-size: 28px;
+		font-size: 21px;
+		margin-left: -18px;
+	}
+	
+	.middleSection {
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.numberToRemove {
+		margin-top: 49px;
+	}
+
+}
+
+@media only screen and (max-width: 412px) {
+	.clothing {
+		width: 89%;
+		margin-left: auto;
+		margin-right: initial;
+	}
+	
+	.clothingName {
+		margin-left: 0px;
+	}
+	
+	.clothingType {
+		width: 69%;
+	}
+}

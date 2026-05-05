@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Shop</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="Styles.css" rel="stylesheet" />
+	<script src="cardshop.js"></script>
+  <script src="account.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="resources/imgs/Store Logo.png" alt="Card Shop Logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="magic.html">Magic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yugioh.html">Yu-Gi-OH!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digimon.html">Digimon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="rightN">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="logIn.html" id="logIn">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cart.html"><img src="resources/imgs/Image 1.png" alt="Cart" id="cart"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="nlist">All Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="magic.html" id="nlist">Magic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="magic unf.html" id="nlist">Unfinity</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="col-sm-12">
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 90.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #528<br>
+                      Hallowed Fountain <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$150.73</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="150.73|Hallowed Fountain (Borderless) (Galaxy Foil)|resources/imgs/Image 90.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 91.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #534<br>
+                      Steam Vents <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$143.65</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="143.65|Steam Vents (Borderless) (Galaxy Foil)|resources/imgs/Image 91.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 92.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #529<br>
+                      Watery Grave <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$126.59</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="126.59|Watery Grave (Borderless) (Galaxy Foil)|resources/imgs/Image 92.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 93.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #533<br>
+                      Godless Shrine <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$124.98</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="124.98|Godless Shrine (Borderless) (Galaxy Foil)|resources/imgs/Image 93.png">BUY</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 94.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #530<br>
+                      Blood Crypt <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$111.40</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="111.40|Blood Crypt (Borderless) (Galaxy Foil)|resources/imgs/Image 94.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 95.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #537<br>
+                      Breeding Pool <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$97.97</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="97.97|Breeding Pool (Borderless) (Galaxy Foil)|resources/imgs/Image 95.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 96.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #536<br>
+                      Sacred Foundry <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$92.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="92.00|Sacred Foundry (Borderless) (Galaxy Foil)|resources/imgs/Image 96.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 97.png" alt="">
+                    <p>Magic: The Gathering<br>
+                      Unfinity</p>
+                    <p>Rare<br>
+                      #535<br>
+                      Overgrown Tomb <br>(Borderless) (Galaxy Foil)</p>
+                    <p id="price">$91.96</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="91.96|Overgrown Tomb (Borderless) (Galaxy Foil)|resources/imgs/Image 97.png">BUY</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

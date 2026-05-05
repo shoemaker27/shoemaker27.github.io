@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Shop</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="Styles.css" rel="stylesheet" />
+	<script src="cardshop.js"></script>
+  <script src="account.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="resources/imgs/Store Logo.png" alt="Card Shop Logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="magic.html">Magic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yugioh.html">Yu-Gi-OH!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digimon.html">Digimon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="rightN">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="logIn.html" id="logIn">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cart.html"><img src="resources/imgs/Image 1.png" alt="Cart" id="cart"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="nlist">All Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="digimon.html" id="nlist">Digimon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="digimon xrec.html" id="nlist">X Record</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="col-sm-12">
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 122.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Secret Rare<br>
+                      BT9-112<br>
+                      DeathXmon (Alternate Art)</p>
+                    <p id="price">$88.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="88.00|DeathXmon (Alternate Art)|resources/imgs/Image 122.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 123.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Secret Rare<br>
+                      BT9-112<br>
+                      DeathXmon</p>
+                    <p id="price">$58.99</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="58.99|DeathXmon|resources/imgs/Image 123.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 124.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Uncommon<br>
+                      BT9-008<br>
+                      Agumon (X Antibody) (Alternate Art)</p>
+                    <p id="price">$38.50</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="38.50|Agumon (X Antibody) (Alternate Art)|resources/imgs/Image 124.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 125.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Super Rare<br>
+                      BT9-068<br>
+                      Gaiomon (Alternate Art)</p>
+                    <p id="price">$25.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="25.00|Gaiomon (Alternate Art)|resources/imgs/Image 125.png">BUY</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 126.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Super Rare<br>
+                      BT9-016<br>
+                      WarGreymon (X Antibody) (Alternate Art)</p>
+                    <p id="price">$21.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="21.00|WarGreymon (X Antibody) (Alternate Art)|resources/imgs/Image 126.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 127.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Super Rare<br>
+                      BT9-044<br>
+                      Magnamon (X Antibody)</p>
+                    <p id="price">$20.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="22.00|Magnamon (X Antibody)|resources/imgs/Image 127.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 128.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Super Rare<br>
+                      BT9-017<br>
+                      Gallantmon (X Antibody) (Alternate Art)</p>
+                    <p id="price">$18.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="18.00 |Gallantmon (X Antibody) (Alternate Art)|resources/imgs/Image 128.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 129.png" alt="">
+                    <p>Digimon<br>
+                      X Record</p>
+                    <p>Uncommon<br>
+                      BT9-020<br>
+                      Gabumon (X Antibody) (Alternate Art)</p>
+                    <p id="price">$15.78</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="15.78|Gabumon (X Antibody) (Alternate Art)|resources/imgs/Image 129.png">BUY</button>
+                </div>
+            </div>
+        </div>
+      </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

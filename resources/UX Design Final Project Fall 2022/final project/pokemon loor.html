@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Shop</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="Styles.css" rel="stylesheet" />
+	<script src="cardshop.js"></script>
+  <script src="account.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="resources/imgs/Store Logo.png" alt="Card Shop Logo" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="magic.html">Magic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yugioh.html">Yu-Gi-OH!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pokemon.html">Pokemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digimon.html">Digimon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="rightN">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="logIn.html" id="logIn">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="cart.html"><img src="resources/imgs/Image 1.png" alt="Cart" id="cart"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="nlist">All Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pokemon.html" id="nlist">Pokemon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="nlist">></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pokemon loor.html" id="nlist">Lost Origin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="col-sm-12">
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 66.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Ultra Rare<br>
+                      #186/196<br>
+                      Giratina V (Alternate Full Art)</p>
+                    <p id="price">$259.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="259.00|Giratina V (Alternate Full Art)|resources/imgs/Image 66.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 67.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Ultra Rare<br>
+                      #180/196<br>
+                      Aerodactyl V (Alternate Full Art)</p>
+                    <p id="price">$119.98</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="119.98|Aerodactyl V (Alternate Full Art)|resources/imgs/Image 67.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 68.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Ultra Rare<br>
+                      #177/196<br>
+                      Rotom V (Alternate Full Art)</p>
+                    <p id="price">$40.00</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="40.00|Rotom V (Alternate Full Art)|resources/imgs/Image 68.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 69.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Ultra Rare<br>
+                      #184/196<br>
+                      Galarian Perrserker V (Alternate Full Art)</p>
+                    <p id="price">$37.31</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="37.31|Galarian Perrserker V (Alternate Full Art) |resources/imgs/Image 69.png">BUY</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 70.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Secret Rare<br>
+                      #201/196<br>
+                      Giratina VSTAR</p>
+                    <p id="price">$21.49</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="21.49|Giratina VSTAR|resources/imgs/Image 70.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 71.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Secret Rare<br>
+                      #212/196<br>
+                      Giratina VSTAR</p>
+                    <p id="price">$17.76</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="|Giratina VSTAR|resources/imgs/Image 71.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 72.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Ultra Rare<br>
+                      #190/196<br>
+                      Colress's Experiment</p>
+                    <p id="price">$14.45</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="14.45|Colress's Experiment|resources/imgs/Image 72.png">BUY</button>
+                </div>
+                <div class="col" id="shopItem">
+                    <img src="resources/imgs/Image 73.png" alt="">
+                    <p>Pokemon<br>
+                      SWSH11: Lost Origin</p>
+                    <p>Secret Rare<br>
+                      #199/196<br>
+                      Aerodactyl VSTAR</p>
+                    <p id="price">$11.46</p>
+                    <button class="btn btn-outline-success" id="buyBtn" title="11.46|Aerodactyl VSTAR|resources/imgs/Image 73.png">BUY</button>
+                </div>
+            </div>
+        </div>
+      </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

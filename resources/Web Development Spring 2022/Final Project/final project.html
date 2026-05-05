@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hunt: Showdown Wiki</title>
+	<link href="final project.css" rel="stylesheet" />
+	<script src="final project.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<h1 onclick="playHmmm()"><img src="resources/hunt_title.PNG" alt="Title"></h1>
+	<audio loop>
+		<source src="resources/Hunt_Showdown_Humming_Remix2.mp3" type="audio/mpeg">
+	  Your browser does not support the audio element.
+	</audio>
+	<h2 id="head2">Wiki</h2>
+	<div class="nav">
+		<a class="Home" onclick="loadHomePage() ">Home</a>
+		<a class="Weapon" onclick="loadWepPage()">Weapons</a>
+		<a class="Tool" onclick="loadToolsPage()">Tools</a>
+		<a class="Consumable" onclick="loadConsPage()">Consumables</a>
+		<a class="Damage" onclick="loadDamagePage()">Damage</a>
+		<a class="Fanning" onclick="loadFanPage()">Fanning</a>
+		<a class="Levering" onclick="loadLevPage()">Levering</a>
+		<a class="Levering" onclick="loadShotgunsPage()">Shotguns</a>
+		<a class="Dual-Wielding" onclick="loadDualPage()">Dual-Wielding</a>
+		<a class="Maps" onclick="loadMapPage()">Maps</a>
+	</div>
+	<div id="dynEntry">
+		<p id="dialogue">
+		This website is a resource for the Hunt: Showdown Community containing a variety of information, including:
+		<br>Stats for all Weapons, Tools, and Consumeables
+		<br>Information on how Damage Drop-Off and Locational Damage Work
+		<br>Data Collected on how the in-game Traits Fanning and Levering work
+		<br>Data Collected on Shotgun Spread
+		<br>Data Collected on the accuracy of dual-wielding
+		<br>Maps of the in-game locations
+		</p>
+		<img id="head3" class="logo" src="resources/hunt_logo.PNG" alt="Hunt Logo">
+	</div>
+</body>
+</html>
