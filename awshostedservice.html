@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Shoemaker | Cybersecurity & Web Development Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Andrew Shoemaker</h1>
+    <p class="subtitle">B.S. Information Systems & Cybersecurity | A.S. Web Development</p>
+</header>
+
+<div class="container">
+    
+    <!-- Wright State Section -->
+    <h2 class="section-title">Wright State University Capstone</h2>
+    <div class="project-grid">
+        <div id="markdown-content">
+            
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 | Built by Andrew Shoemaker</p>
+</footer>
+<script>
+    fetch('./resources/System Admin 2026/Self-Hosted.md')
+     .then(response => response.text())
+     .then(text => {
+       document.getElementById('markdown-content').innerHTML = marked.parse(text);
+     });
+</script>
+</body>
+</html>
